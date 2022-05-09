@@ -1,6 +1,6 @@
 'use strict';
 
-const core = require('@apollo/client/core');
+const core = require('@apollo/client/core/core.cjs');
 const _app = require('#app');
 const apolloComposable = require('@vue/apollo-composable');
 const apolloOptions = require('#build/apollo.options.mjs');

@@ -4,7 +4,7 @@ import {
   InMemoryCache,
   createHttpLink,
   ApolloClientOptions,
-} from '@apollo/client/core/core.js'
+} from '@apollo/client/core'
 // @ts-expect-error #app resolved by Nuxt3
 import { defineNuxtPlugin, NuxtApp } from '#app'
 import { ApolloClients, provideApolloClient } from '@vue/apollo-composable'
