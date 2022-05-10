@@ -1,4 +1,4 @@
-import { createHttpLink, InMemoryCache, ApolloClient } from '@apollo/client/core';
+import { createHttpLink, InMemoryCache, ApolloClient } from '@apollo/client/core/core.cjs';
 import { defineNuxtPlugin } from '#app';
 import { ApolloClients } from '@vue/apollo-composable';
 import apolloOptions from '#build/apollo.options.mjs';
